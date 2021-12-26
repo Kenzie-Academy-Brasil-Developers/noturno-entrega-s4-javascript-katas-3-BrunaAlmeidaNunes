@@ -1,0 +1,25 @@
+body{
+	background-color: azure;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	text-align: center;
+}
+.display-results{
+	padding:10px;
+	border-radius:10px;
+	width: 300px;
+	border:1px solid gray;
+}
+.botoes-katas{
+	margin-top: 20px;
+	width: 300px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+.botoes-katas button{
+	margin: 10px 0;
+	height: 30px;
+	width: 80px;
+}
